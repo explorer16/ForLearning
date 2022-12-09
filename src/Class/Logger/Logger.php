@@ -1,6 +1,6 @@
 <?php
 
-namespace Class;
+namespace Class\Logger;
 
 class Logger implements Explorer\Logger\Interface\LoggerInterface
 {
