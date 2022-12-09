@@ -1,0 +1,19 @@
+{
+    "name": "explorer/logger",
+    "description": "logger hometask",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Logger\\Class\\":"src/",
+            "Logger\\Interface\\":"src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Doniyor Asadullaev",
+            "email": "asadullaevdonier@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
