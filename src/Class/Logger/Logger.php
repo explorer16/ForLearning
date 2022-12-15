@@ -2,9 +2,11 @@
 
 namespace Class\Logger;
 
-class Logger implements Explorer\Logger\Interface\LoggerInterface
+//use Interface\LoggerInterface;
+
+class Logger //implements LoggerInterface
 {
-    public function write(array $context)
+    /*public function write(array $context):void
     {
         extract($context);
 
@@ -14,5 +16,16 @@ class Logger implements Explorer\Logger\Interface\LoggerInterface
         $file=fopen("logs.txt", 'w');
 
         $file.="\r\n".$log;
+    }
+    public function format(array $context): string
+    {
+        return '';
+    }
+    public function log(array $context): void
+    {
+        // TODO: Implement log() method.
+    }*/
+    public function show(){
+        return __CLASS__.':'.__FILE__;
     }
 }
