@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Explorer\\Logger\\' => array($baseDir . '/src'),
+    'Class\\' => array($baseDir . '/src/Class'),
 );

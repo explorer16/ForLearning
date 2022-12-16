@@ -2,9 +2,9 @@
 
 namespace Class\Logger;
 
-use Interface\LoggerInterface\LoggerInterface;
+//use Interface\LoggerInterface\LoggerInterface;
 
-class Logger implements LoggerInterface
+class Logger implements Interface\LoggerInterface\LoggerInterface
 {
     public function write(array $context):void
     {
