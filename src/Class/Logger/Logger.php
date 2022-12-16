@@ -1,8 +1,7 @@
 <?php
-
 namespace Class\Logger;
 
-//use Interface\LoggerInterface\LoggerInterface;
+use Interface\LoggerInterface\LoggerInterface;
 
 class Logger implements Interface\LoggerInterface\LoggerInterface
 {
