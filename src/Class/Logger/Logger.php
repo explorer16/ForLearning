@@ -3,7 +3,7 @@ namespace Class\Logger;
 
 use Interface\LoggerInterface\LoggerInterface;
 
-class Logger implements Interface\LoggerInterface\LoggerInterface
+class Logger implements LoggerInterface
 {
     public function write(array $context):void
     {
