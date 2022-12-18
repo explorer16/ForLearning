@@ -24,4 +24,8 @@ class Logger implements LoggerInterface
     {
         // TODO: Implement log() method.
     }
+    public function show(): void
+    {
+        echo "работает";
+    }
 }

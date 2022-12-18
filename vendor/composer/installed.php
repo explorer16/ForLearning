@@ -3,7 +3,7 @@
         'name' => 'explorer/logger',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => 'ae7bdd5da90ed8a12ed9676068b2d658b20df2ef',
+        'reference' => '87b9f75f1c4fa371c9f6a0704dbaceccfc92be75',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'explorer/logger' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'ae7bdd5da90ed8a12ed9676068b2d658b20df2ef',
+            'reference' => '87b9f75f1c4fa371c9f6a0704dbaceccfc92be75',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
